@@ -3,8 +3,8 @@
         {
             "name": "Recipe Chest",
             "tech": ["REACT URL", "NODE JS", "PYTON"],
-            "description": "This is a desctipn of the produtof offer",
-            "live": "link",
+            "description": "Desciption is in the works",
+            "live": "recipechest.co.uk",
             "source": ""
         },
         {
@@ -24,9 +24,8 @@
         {
             "name": "Smarthome API",
             "tech": ["NODE JS"],
-            "description": "This is a desctipn of the produtof offer",
-            "live": "link",
-            "source": ""
+            "description": "Desciption is in the works",
+            "source": "https://github.com/Liam212/smarthome"
         }
     ]
 }

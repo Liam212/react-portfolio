@@ -9,9 +9,9 @@ function Navbar() {
   }
   return (
     <div className={Styles.navContainer}>
-        <div className={Styles.navTitle}>
+        <NavLink className={Styles.navTitle} to='/'>
             <h1>Liam Stout</h1>
-        </div>
+        </NavLink>
         <div className={Styles.navLinks}>
             <div className={Styles.navItem}>
                 <NavLink exact to="/" activeClassName={Styles.activeItem}>

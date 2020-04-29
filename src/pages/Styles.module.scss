@@ -12,6 +12,10 @@
 }
 .navTitle h1 {
     font-weight: bold;
+    color: black;
+}
+.navTitle {
+    text-decoration: none;
 }
 .navLinks {
     justify-content: flex-end;

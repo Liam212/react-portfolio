@@ -43,6 +43,13 @@
 }
 .WorkCardButtons a {
     margin-left: .3em;
+    margin-top: .3em;
+    background-color: rgb(255, 197, 154);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: .5em;
+    border-radius: 4px;
 }
 @media(max-width:650px) {
     .Container {
