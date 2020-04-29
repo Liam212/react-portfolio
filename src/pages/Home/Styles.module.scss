@@ -41,23 +41,13 @@
     height: 516px;
 }
 .cardOrange {
-    width: 39%;
+    width: 40%;
     background-color: #FFC59A;
 }
 .cardPurple {
-    margin-left: 1em;
+    margin-left: 1%;
     width: 59%;
     background-color: #BD9AFF;
-}
-@media(max-width:1317px) {
-    .cardPurple {
-        width: 58%;
-    }
-}
-@media(max-width:936px) {
-    .cardPurple {
-        width: 57%;
-    }
 }
 @media(max-width:800px) {
     .CardContainer {
