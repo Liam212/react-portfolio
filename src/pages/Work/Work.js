@@ -17,7 +17,7 @@ function Work() {
           {projects.projects.map((project) => {
             return ( 
               <div className={Styles.WorkCard}>
-                <div style={{ display: 'flex', alignItems: 'center' }}><h3>{project.name}</h3>{project.tech.map((url) => { return <img style={{ marginLeft: '.3em', paddingBottom: '.3em' }} src={logos[url]} alt={'Tech'} height={20} /> })}</div>
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-start' }}><h3>{project.name}</h3>{project.tech.map((url) => { return <img style={{ marginLeft: '.3em', paddingBottom: '.3em' }} src={logos[url]} alt={'Tech'} height={20} /> })}</div>
                 <p>{project.description}</p>
                 <div className={Styles.WorkCardButtons}>
                   {project.live ? <a target="_blank" href={project.live}>Live Version</a> : <></>}
