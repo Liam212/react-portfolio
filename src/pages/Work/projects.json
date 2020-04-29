@@ -1,0 +1,32 @@
+{
+    "projects": [
+        {
+            "name": "Recipe Chest",
+            "tech": ["REACT URL", "NODE JS", "PYTON"],
+            "description": "This is a desctipn of the produtof offer",
+            "live": "link",
+            "source": ""
+        },
+        {
+            "name": "Nitric Hosting",
+            "tech": ["REACT URL", "NODE JS", "PYTON"],
+            "description": "This a note taking app I developed with React. it includes user authentication and storing user data with firebase.",
+            "live": "reactUrl",
+            "source": ""
+        },
+        {
+            "name": "React Notes",
+            "tech": ["REACT URL"],
+            "description": "This is a NodeJS API that keeps the management of IoT devices in one place. The API activates different modules that support different smart devices.",
+            "live": "https://my-notes-8bca4.firebaseapp.com/?",
+            "source": "https://github.com/Liam212/react-notes"
+        },
+        {
+            "name": "Smarthome API",
+            "tech": ["NODE JS"],
+            "description": "This is a desctipn of the produtof offer",
+            "live": "link",
+            "source": ""
+        }
+    ]
+}
