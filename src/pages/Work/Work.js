@@ -21,7 +21,7 @@ function Work() {
                 <p>{project.description}</p>
                 <div className={Styles.WorkCardButtons}>
                   {project.live ? <a target="_blank" href={project.live}>Live Version</a> : <></>}
-                  {project.source ? <a target="_blank" href={project.source}>Source Code</a> : <></>}
+                  {project.source ? <a target="_blank" href={project.source}>Source Code</a> : <a style={{ backgroundColor: '#FF9A9A' }} href='#'>Private Repo</a>}
                 </div>
               </div>
             )

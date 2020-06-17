@@ -13,7 +13,7 @@ function Contact() {
           <h3>Github</h3>
           <a target="_blank" href="https://github.com/Liam212">Liam212</a>
           <h3>Resume</h3>
-          <a>In progress</a>
+          <a target="_blank" href='/2020.pdf'>Download Resume</a>
         </div>
     </div>
   );
