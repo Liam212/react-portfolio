@@ -12,8 +12,8 @@ function Contact() {
           <a href="mailto:liamstout212@gmail.com">liamstout212@gmail.com</a>
           <h3>Github</h3>
           <a target="_blank" href="https://github.com/Liam212">Liam212</a>
-          <h3>Resume</h3>
-          <a target="_blank" href='/2020.pdf'>Download Resume</a>
+          <h3>Linkedin</h3>
+          <a target="_blank" href='https://www.linkedin.com/in/liam-stout-860070232/'>Linkedin</a>
         </div>
     </div>
   );
