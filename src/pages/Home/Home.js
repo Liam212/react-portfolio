@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../NavBar'
-import Link from 'react-router-dom/Link'
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 const CardContainer = styled.div`
   width: 100%;
