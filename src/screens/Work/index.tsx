@@ -1,9 +1,16 @@
-import React from 'react'
 import Navbar from '../NavBar'
-import projects from './projects'
+import projects from './projects.json'
 import styled from 'styled-components'
 
-const logos = {
+interface Project {
+  name: string
+  tech: string[]
+  description: string
+  live?: string
+  source?: string
+}
+
+const logos: { [key: string]: string } = {
   react: require('../../assets/img/react.svg'),
   node: require('../../assets/img/node.png'),
   python: require('../../assets/img/python.png'),
@@ -70,7 +77,8 @@ function Work() {
       <Navbar />
       <Container>
         <h1 style={{ color: '#FFC59A' }}>my work</h1>
-        {projects.projects.map(project => {
+        {/* @ts-expect-error */}
+        {projects.default.map((project: Project) => {
           return (
             <WorkCard>
               <div

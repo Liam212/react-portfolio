@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { CSSProperties } from 'react'
 import Navbar from '../NavBar'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
+
+interface CardProps {
+  to?: string
+  style?: CSSProperties
+}
 
 const CardContainer = styled.div`
   width: 100%;
@@ -41,7 +46,7 @@ const RightContainer = styled.div`
   }
 `
 
-const Card = styled(Link)`
+const Card = styled(Link)<CardProps>`
   border-radius: 4px;
   height: 250px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -139,7 +144,7 @@ function Home() {
         </LeftContainer>
         <RightContainer>
           <CardBlue href="https://github.com/liam212" target="_blank">
-            <Card style={{ height: 'inherit' }}>
+            <Card to="" style={{ height: 'inherit' }}>
               <CardText>Github</CardText>
             </Card>
           </CardBlue>

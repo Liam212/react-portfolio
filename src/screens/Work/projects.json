@@ -1,0 +1,48 @@
+[
+  {
+    "name": "Zorda Mobile",
+    "tech": ["react", "node", "firebase"],
+    "description": "Zorda is a universal app on your customer's phone, rather than many. A mobile order and pay service for your venue. The USP with zorda is that venue managers have complete control over their venue with the Zorda Panel App.",
+    "live": "https://zorda.co.uk",
+    "source": ""
+  },
+  {
+    "name": "Recipe Chest",
+    "tech": ["react", "node", "python"],
+    "description": "Recipe chest is a recipe search engine. Using nodeJS and python the api scrapes the internet for recipes realted to an ingredient entered by the user. The powerful scraper can fetch thousands of recipes within 2 seconds all in real time.",
+    "live": "https://recipechest.co.uk",
+    "source": ""
+  },
+  {
+    "name": "Nitric Hosting",
+    "tech": ["react", "node", "python"],
+    "description": "Nitric hosting is a unfinished project of mine. It is a game server hosting service. Using python and bash game servers can be created automatically. The user can also edit server settings in a react control pannel.",
+    "live": "",
+    "source": ""
+  },
+  {
+    "name": "React Portfolio",
+    "tech": ["react"],
+    "description": "This very portfolio is made in react. The source code is available on my github.",
+    "source": "https://github.com/Liam212/react-portfolio"
+  },
+  {
+    "name": "React Notes",
+    "tech": ["react", "firebase"],
+    "description": "This a note taking app I developed with React. it includes user authentication and storing user data with firebase.",
+    "live": "https://my-notes-8bca4.firebaseapp.com/?",
+    "source": "https://github.com/Liam212/react-notes"
+  },
+  {
+    "name": "Artly",
+    "tech": ["python"],
+    "description": "Artly is a python script that fetches the current track you are listening to on spotify using the api and sets your smart lights to the dominant color of the album art.",
+    "source": "https://github.com/Liam212/coverpy"
+  },
+  {
+    "name": "Smarthome API",
+    "tech": ["node"],
+    "description": "This is a NodeJS API that keeps the management of IoT devices in one place. The API activates different modules that support different smart devices.",
+    "source": "https://github.com/Liam212/smarthome"
+  }
+]
