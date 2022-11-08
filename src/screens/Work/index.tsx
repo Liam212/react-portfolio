@@ -77,8 +77,7 @@ function Work() {
       <Navbar />
       <Container>
         <h1 style={{ color: '#FFC59A' }}>my work</h1>
-        {/* @ts-expect-error */}
-        {projects.default.map((project: Project) => {
+        {projects.map((project: Project) => {
           return (
             <WorkCard>
               <div
