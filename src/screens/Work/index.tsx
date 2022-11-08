@@ -11,7 +11,7 @@ interface Project {
 }
 
 const logos: { [key: string]: string } = {
-  react: require('../../assets/img/react.svg'),
+  react: require('../../assets/img/react.png'),
   node: require('../../assets/img/node.png'),
   python: require('../../assets/img/python.png'),
   html: require('../../assets/img/html.png'),
