@@ -1,5 +1,11 @@
 [
   {
+    "name": "Open Nutrition",
+    "tech": ["react", "node", "firebase"],
+    "description": "Open Nutrition is a nutrition tracking app. It uses OpenFoodFacts API to fetch nutrition data for food items.",
+    "source": "https://github.com/Liam212/nutrition-buddy"
+  },
+  {
     "name": "Zorda Mobile",
     "tech": ["react", "node", "firebase"],
     "description": "Zorda is a universal app on your customer's phone, rather than many. A mobile order and pay service for your venue. The USP with zorda is that venue managers have complete control over their venue with the Zorda Panel App.",
